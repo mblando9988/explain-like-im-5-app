@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ExplainLikeIm5App",
     platforms: [
-        .macOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         .executable(name: "ExplainLikeIm5App", targets: ["ExplainLikeIm5App"])
